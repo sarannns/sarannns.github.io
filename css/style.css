@@ -47,6 +47,10 @@ nav {
   z-index: 1;
 }
 
+.text-container {
+  text-align: center;
+}
+
 .nav-links li {
   display: inline-block;
   margin-right: 20px;
