@@ -28,7 +28,7 @@ particlesJS("particles-js", {
     "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 50, "size_min": 0.2, "sync": false } },
     "line_linked": { "enable": true, "distance": 150, "color": "#726a6a", "opacity": 0.4, "width": 1 },
     "move": {
-      "enable": true, "speed": 10, "direction": "none", "random": false, "straight": false, "out_mode": "out",
+      "enable": true, "speed": 1, "direction": "none", "random": false, "straight": false, "out_mode": "out",
       "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 }
     }
   },
