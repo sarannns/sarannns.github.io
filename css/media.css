@@ -1,6 +1,9 @@
 @media screen and (max-width: 1400px) {
   #profile {
+    /* display: flex; */
     height: 83vh;
+    /* justify-content: center; */
+    /* gap: 5rem; */
     margin-bottom: 6rem;
   }
 
@@ -48,18 +51,12 @@
 
   .section__pic-container {
     width: 275px;
-    height: auto;
-    margin: 0 0 1rem;
+    height: 275px;
+    margin: 0 auto 2rem;
   }
 
   .about-containers {
     margin-top: 0;
-  }
-
-  .about-profile-pic {
-    height: 275px;
-    width: 275px;
-    margin: 0 0 2rem;
   }
 }
 
@@ -114,15 +111,9 @@
   }
 
   .section__pic-container {
-    width: 46vw;
+    width: auto;
     height: 46vw;
     justify-content: center;
-  }
-
-  .about-profile-pic {
-    width: 50vw;
-    height: 50vw;
-    justify-content: right;
   }
 
   .section__text__p2 {
