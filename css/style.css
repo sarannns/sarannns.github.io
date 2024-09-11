@@ -9,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 
 html {
@@ -88,7 +87,8 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 700;
   padding: 10px;
-  margin-right: 5px;
+  margin-left: -1px;
+
   cursor: pointer;
   text-align: center;
 }
@@ -217,38 +217,37 @@ section {
 
 #profile {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   gap: 5rem;
   height: 80vh;
 }
 
 .about-profile-pic {
   display: flex;
-  height: 350px;
+  height: 375px;
   width: 350px;
-  margin: auto 0;
-  justify-content: space-around;
+  margin: 0 3rem;
 }
-
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 350px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 350px;
+  width: 450px;
+  margin: auto;
   border-radius: 50%;
   overflow: hidden;
-  z-index: 3;
+  z-index: 4;
 }
 
 .section__pic-container img {
-
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
   transition: 0.5s;
-  /* border-radius: 50%; */
-  z-index: 2;
-
+  z-index: 3;
 }
 
 .section__pic-container img:hover {
@@ -296,7 +295,7 @@ section {
 
 .abouticon {
   cursor: pointer;
-  height: 5rem;
+  height: 4rem;
   z-index: 2;
 }
 
