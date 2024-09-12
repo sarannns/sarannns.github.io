@@ -31,6 +31,7 @@
   #profile,
   .section-container {
     display: block;
+    margin-bottom: 10%;
   }
 
   .arrow {
@@ -43,7 +44,7 @@
   }
 
   section {
-    margin: 0 auto;
+    margin: 0 5%;
   }
 
   .section__pic-container {
@@ -53,8 +54,8 @@
   }
 
   .about-profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 275px;
+    height: 275px;
     justify-content: left;
     margin: 0 auto 2rem;
   }
@@ -66,7 +67,7 @@
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
 
   #contact,
   footer {
@@ -75,7 +76,7 @@
 
   #profile {
     height: 83vh;
-    margin-bottom: 6rem;
+    margin-bottom: 20%;
   }
 
   article {
@@ -118,8 +119,8 @@
   }
 
   .about-profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 33vw;
+    height: 33vw;
     justify-content: left;
   }
 
