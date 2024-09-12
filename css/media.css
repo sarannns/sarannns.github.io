@@ -53,8 +53,8 @@
   }
 
   .about-profile-pic {
-    width: 55vw;
-    height: 55vw;
+    width: 275px;
+    height: 275px;
     justify-content: left;
     margin: 0 auto 2rem;
   }
@@ -87,6 +87,7 @@
     margin-bottom: 2rem;
   }
 
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
@@ -116,17 +117,11 @@
     text-align: center;
   }
 
-  /* .section__pic-container {
-    width: 55vw;
-    height: 55vw;
-    justify-content: center;
-  }
-
   .about-profile-pic {
-    width: 55vw;
-    height: 55vw;
+    width: 33vw;
+    height: 33vw;
     justify-content: left;
-  } */
+  }
 
   .section__text__p2 {
     font-size: 1.25rem;

@@ -253,6 +253,7 @@ section {
   height: 300px;
   width: 300px;
   margin: auto auto;
+  overflow: hidden;
 }
 
 .section__text {
