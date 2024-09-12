@@ -1,1 +1,1 @@
-# Thank you, please visit sarannns.github.com
+Thank you, please visit sarannns.github.com
