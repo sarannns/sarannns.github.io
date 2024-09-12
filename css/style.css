@@ -222,13 +222,6 @@ section {
   height: 80vh;
 }
 
-.about-profile-pic {
-  display: flex;
-  height: 300px;
-  width: 300px;
-  margin: auto auto;
-}
-
 .section__pic-container {
   display: flex;
   align-items: center;
@@ -236,7 +229,7 @@ section {
   justify-content: center;
   height: 400px;
   width: 400px;
-  margin: auto;
+  margin: auto 0;
   border-radius: 50%;
   overflow: hidden;
   z-index: 3;
@@ -253,6 +246,13 @@ section {
 .section__pic-container img:hover {
   transform: scale(1.2);
 
+}
+
+.about-profile-pic {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: auto auto;
 }
 
 .section__text {
