@@ -1,4 +1,4 @@
-@media screen and (max-width: 2500px) {
+@media screen and (min-width: 1800px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -6,11 +6,36 @@
 
   .about-containers {
     flex-wrap: wrap;
+
   }
 
   #contact,
   #projects {
     height: fit-content;
+  }
+
+  .about-profile-pic {
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    justify-content: right;
+    margin: 7rem auto auto 15rem;
+    /* margin: 0 1rem; */
+  }
+
+  .details-container {
+    margin: 0rem 5rem auto 0rem;
+    ;
+  }
+
+  .text-container {
+    margin: 0rem auto auto 0rem;
+    ;
+  }
+
+  .about-containers {
+    margin-top: 4rem;
+    ;
   }
 }
 
@@ -72,8 +97,9 @@
   .about-profile-pic {
     width: 275px;
     height: 275px;
-    justify-content: center;
-    margin: 0 auto 2rem;
+    justify-content: left;
+    margin: 4rem auto 2rem;
+    /* margin: 0 1rem; */
   }
 
   .about-containers {
