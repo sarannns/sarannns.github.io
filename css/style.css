@@ -229,7 +229,7 @@ section {
   justify-content: center;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: 0 auto;
   border-radius: 50%;
   overflow: hidden;
   z-index: 3;

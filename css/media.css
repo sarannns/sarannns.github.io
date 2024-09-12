@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   #desktop-nav {
     display: none;
   }
@@ -116,7 +116,7 @@
     text-align: center;
   }
 
-  .section__pic-container {
+  /* .section__pic-container {
     width: 55vw;
     height: 55vw;
     justify-content: center;
@@ -126,7 +126,7 @@
     width: 55vw;
     height: 55vw;
     justify-content: left;
-  }
+  } */
 
   .section__text__p2 {
     font-size: 1.25rem;
