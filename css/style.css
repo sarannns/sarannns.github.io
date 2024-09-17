@@ -73,7 +73,7 @@ a:hover {
 
 .logo {
   justify-content: center;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
