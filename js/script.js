@@ -12,7 +12,7 @@ form.setAttribute("href", "mailto:".concat(atob(encEmail)));
 var typed = new Typed(".multiple-text",
   {
     strings: ["Machine Learning Developer",
-      "Research Software Engineer", "Weiqi Player", "Cricketer"],
+      "Research Software Engineer", "Weiqi Player"],
     typeSpeed: 100, backSpeed: 50,
     backDelay: 1000, loop: true
   });
