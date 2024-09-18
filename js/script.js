@@ -13,8 +13,8 @@ var typed = new Typed(".multiple-text",
   {
     strings: ["Machine Learning Developer",
       "Research Software Engineer", "Weiqi Player"],
-    typeSpeed: 100, backSpeed: 50,
-    backDelay: 1000, loop: true
+    typeSpeed: 80, backSpeed: 50,
+    backDelay: 1500, loop: true
   });
 
 particlesJS("particles-js", {
